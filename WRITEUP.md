@@ -29,7 +29,7 @@ You're reading it! Below I describe how I addressed each rubric point and where 
 
 Yes the car is able to drive with any jerks or collisions or adverse incidents of any kind for over 6 miles. I didn't run the simulation more than that but I am sure it would go further without incident.
 
-![3D Control Architecture](./images/ControlArchitecture.jpg)
+![Successful](./images/Successful.png)
 
 
 ##### 2. The car drives according to the speed limit.
@@ -40,9 +40,13 @@ Yes the  Max Speed Limit is hard-coded in the code and the car doesn't go over i
 
 Yes the Max Acceleration is hard-coded in the code and the car doesn't go over it. Also, the car doesn't jerk because during switching lanes it decelerates.
 
+![Speed](./images/Speed.png)
+
 ##### 4. Car does not have collisions.
 
 Nope the car didn't have any collisions whatsover.
+
+![Collision](./images/Collision.png)
 
 ##### 5. The car stays in its lane, except for the time between changing lanes.
 
@@ -51,6 +55,9 @@ Yes the car maintains proper lane discipline.
 ##### 5. The car is able to change lanes.
 
 Yes the car is programmed to hit the max speed as much as possible so whenever there's a car ahead the car switches to any of the surrounding free lanes.
+
+![Lane_change](./images/Lane_change.png)
+
 
 #### 3. Reflection.
 
